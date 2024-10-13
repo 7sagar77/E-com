@@ -159,9 +159,9 @@
   padding: 7px;
 }
 .banner-text a.shop-now:hover {
-    border-radius: 8px;
-    background-color: #d19c97;
-    color: rgb(26, 22, 22);
+  border-radius: 8px;
+  background-color: #d19c97;
+  color: rgb(26, 22, 22);
 }
 .feature-box ul {
   display: flex;
@@ -182,7 +182,6 @@
   text-decoration: none;
   padding: 5px;
   color: #d19c97;
-
 }
 .feature-box ul li i:hover {
   color: #291d1c;
@@ -191,38 +190,84 @@
   color: #d19c97;
 }
 
-.category-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.category{
-    border: 1px solid #ccc;
-}
-.category .product-count{
-    text-align: right;
-    padding: 20px;
-}
-.category .category-type h5{
-   margin: 17px 0px 17px 52px;
-    font-size: 21px;
-}
-
-.category-box{
-    top: 41px;
-    position: relative;
-    display: flex;
-    gap: 36px;
-}
-.offer-category{
+.category-image {
   display: flex;
-    justify-content: space-around;
-    width: 50%;
-    height: 250px;
-    border: 1px solid #ddd;
-    background-color: #8e93f980;
+  align-items: center;
+  justify-content: center;
 }
-.offer-category .offer-img img{
+.category-image img{
+  transition: transform 0.3s ease-in-out;
+}
+.category-image img:hover {
+  transform: scale(1.2);
+}
+
+
+.category {
+  border: 1px solid #ccc;
+}
+.category .product-count {
+  text-align: right;
+  padding: 20px;
+}
+.category .category-type h5 {
+  margin: 17px 0px 17px 52px;
+  font-size: 21px;
+}
+
+.category-box {
+  top: 41px;
+  position: relative;
+  display: flex;
+  gap: 36px;
+}
+.offer-category {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 250px;
+  border: 1px solid #ddd;
+  background-color: rgb(207,216,245);
+}
+.offer-category img {
   height: 100%;
+  width: 45%;
+  object-fit: cover;
 }
+.offer-details {
+  width: 60%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 33px;
+}
+.offer-details h5 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: #d19c97;
+  text-transform: uppercase;
+}
+.offer-details .offer-collection h3 {
+  margin-top: 8px;
+  font-size: 30px;
+}
+.offer-details .shop-now button {
+  border: 1px solid #d19c97;
+  height: 36px;
+  width: 93px;
+  background-color: transparent;
+  color: #d19c97;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.offer-details .shop-now button:hover {
+
+  background-color: transparent;
+  color: #764b30;
+ 
+}
+.category-wrapper {
+  display: flex;
+  gap: 20px;
+}
+

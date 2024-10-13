@@ -22,6 +22,9 @@ body{
 .width-33{
     width: 33.3%;
 }
+.w-f{
+    width: 100%;
+}
 .common-btn{
     height: 40px;
     border: 1px solid #ddd;
