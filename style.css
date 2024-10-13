@@ -195,13 +195,12 @@
   align-items: center;
   justify-content: center;
 }
-.category-image img{
+.category-image img {
   transition: transform 0.3s ease-in-out;
 }
 .category-image img:hover {
   transform: scale(1.2);
 }
-
 
 .category {
   border: 1px solid #ccc;
@@ -227,7 +226,7 @@
   width: 50%;
   height: 250px;
   border: 1px solid #ddd;
-  background-color: rgb(207,216,245);
+  background-color: rgb(207, 216, 245);
 }
 .offer-category img {
   height: 100%;
@@ -257,17 +256,68 @@
   width: 93px;
   background-color: transparent;
   color: #d19c97;
-  margin-top: 22px;
+  position: relative;
   cursor: pointer;
 }
 .offer-details .shop-now button:hover {
-
   background-color: transparent;
   color: #764b30;
- 
 }
 .category-wrapper {
   display: flex;
   gap: 20px;
 }
 
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.cart img {
+  width: 100%;
+  object-fit: cover;
+}
+.cart h5 {
+  margin-top: 17px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.cart .price {
+  gap: 11px;
+  display: flex;
+  margin-bottom: 22px;
+}
+.cart .price span:nth-child(2) {
+  text-decoration-line: line-through;
+  color: #707981;
+}
+.cart .price span:first-of-type {
+  font-weight: 600;
+}
+.cart button {
+  border: none;
+  background-color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+.cart button i {
+  color: #d19c97;
+  padding: 6px;
+  cursor: pointer;
+
+}
+.cart button:hover {
+  color: #d19c97;
+}
+.cart button i:hover {
+  color: #333;
+}
+
+.cart img {
+  transition: transform 0.3s ease-in-out;
+}
+.cart img:hover {
+  transform: scale(1.1);
+}
