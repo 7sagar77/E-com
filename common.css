@@ -56,3 +56,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+.topic-headers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
