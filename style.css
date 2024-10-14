@@ -428,7 +428,7 @@
 
 .slide img {
   height: 100px;
-  width: auto;
+  /* width: auto; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
