@@ -54,6 +54,7 @@ body{
 .mt-4{
     margin-top: 80px;
 }
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -70,3 +71,10 @@ body{
     margin-bottom: 0px;
     margin-top: 30px;
 }
+
+
+ /* @media only screen and (max-width: 932px){
+    .mt-4{
+        margin-top: 30px;
+    }
+  }  */
