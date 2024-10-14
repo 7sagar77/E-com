@@ -46,19 +46,15 @@
 }
 
 .list-header {
-  height: 60px;
+  height: 47px;
   background-color: #d19c97;
   margin: 0px;
 }
 .list-header h4 {
   display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 12px 0px 0px 30px;
 }
-.list-header span {
-  float: right;
-  padding: 24px;
-}
+
 .banner-area ul {
   margin: 0px;
   padding: 0px;
@@ -93,7 +89,7 @@
 }
 .shop-menu li {
   min-width: 75px;
-  padding: 20px;
+  padding: 11px;
 }
 .shop-menu li a {
   color: #333;
@@ -243,13 +239,13 @@
 }
 .offer-details h5 {
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 18px;
   color: #d19c97;
   text-transform: uppercase;
 }
 .offer-details .offer-collection h3 {
   margin-top: 8px;
-  font-size: 30px;
+  font-size: 28px;
 }
 .offer-details .shop-now button {
   border: 1px solid #d19c97;
@@ -555,6 +551,9 @@
     align-items: center;
     gap: 8px;
   }
+  .shop-menu li {
+    min-width: 54px;
+}
 }
 
 @media only screen and (max-width: 932px) {
@@ -616,6 +615,9 @@
   .category .category-type h5 {
     font-size: 17px;
   }
+  .list-header {
+    height: 41px;
+  }
 }
 
 @media only screen and (max-width: 918px) {
@@ -623,7 +625,9 @@
   .quick-links ul {
     font-size: 11px;
   }
-
+  .logo h1 {
+    font-size: 31px;
+}
   .subscribe input {
     width: 93%;
   }
@@ -643,7 +647,59 @@
   .offer-category {
     height: 229px;
   }
-  .offer-details h5 {
-    font-size: 13px;
+  .offer-details h5{
+    font-size: 13px !important;
+  }
+  .banner-text {
+    gap: 8px;
   }
 }
+
+@media only screen and (max-width: 842px){
+   .cart-button{
+    display: flex;
+    flex-direction: column;
+}
+.offer-details .offer-collection h3 {
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 812px){
+
+.offer-details .offer-collection h3 {
+  font-size: 18px;
+}
+.shop-menu li {
+  min-width: 43px;
+}
+}
+@media only screen and (max-width: 768px){
+
+.offer-details .offer-collection h3 {
+  text-align: end;
+    font-size: 21px;
+}
+.offer-details {
+  gap: 10px;
+}
+.category .category-image img {
+  width: 190px;
+}
+.category .category-type h5 {
+  margin: 17px 0px 17px 8px;
+}
+.shop-menu li a {
+  font-size: 13px;
+}
+.shop-menu li {
+  padding: 8px;
+}
+.list-header {
+  height: 41px;
+}
+.list-header h4 {
+  display: inline-block;
+  margin: 8px 0px 0px 20px;
+}
+}
+
