@@ -13,7 +13,7 @@
   color: #d19c97;
   margin: 0px 5px 0px 0px;
 }
-.common-btn{
+.common-btn {
   height: 40px;
   border: 1px solid #ddd;
   min-width: 50px;
@@ -24,7 +24,7 @@
   font-size: 17px;
   font-weight: 700;
 }
-.common-btn span i{
+.common-btn span i {
   padding-right: 6px;
 }
 .search-product input {
@@ -188,7 +188,6 @@
 .feature-box ul li a {
   text-decoration: none;
   color: black;
-
 }
 .feature-box ul li i {
   text-decoration: none;
@@ -568,7 +567,7 @@
   }
   .shop-menu li {
     min-width: 54px;
-}
+  }
 }
 
 @media only screen and (max-width: 932px) {
@@ -627,6 +626,10 @@
     width: 205px;
     height: 308px;
   }
+  .category-box {
+
+    gap: 13px;
+}
   .category .category-type h5 {
     font-size: 17px;
   }
@@ -642,7 +645,7 @@
   }
   .logo h1 {
     font-size: 31px;
-}
+  }
   .subscribe input {
     width: 93%;
   }
@@ -662,7 +665,7 @@
   .offer-category {
     height: 229px;
   }
-  .offer-details h5{
+  .offer-details h5 {
     font-size: 13px !important;
   }
   .banner-text {
@@ -670,147 +673,316 @@
   }
 }
 
-@media only screen and (max-width: 842px){
-   .cart-button{
+@media only screen and (max-width: 842px) {
+  .cart-button {
     display: flex;
     flex-direction: column;
+  }
+  .offer-details .offer-collection h3 {
+    font-size: 20px;
+  }
 }
-.offer-details .offer-collection h3 {
-  font-size: 20px;
+@media only screen and (max-width: 812px) {
+  .offer-details .offer-collection h3 {
+    font-size: 18px;
+  }
+  .shop-menu li {
+    min-width: 31px;
 }
 }
-@media only screen and (max-width: 812px){
-
-.offer-details .offer-collection h3 {
-  font-size: 18px;
-}
-.shop-menu li {
-  min-width: 43px;
-}
-}
-@media only screen and (max-width: 768px){
-
-.offer-details .offer-collection h3 {
-  text-align: end;
+@media only screen and (max-width: 768px) {
+  .offer-details .offer-collection h3 {
+    text-align: end;
     font-size: 21px;
-}
-.offer-details {
-  gap: 10px;
-}
-.category .category-image img {
-  width: 190px;
-}
-.category .category-type h5 {
-  margin: 17px 0px 17px 8px;
-}
-.shop-menu li a {
-  font-size: 13px;
-}
-.shop-menu li {
-  padding: 8px;
-}
-.list-header {
-  height: 41px;
-}
-.list-header h4 {
-  display: inline-block;
-  margin: 8px 0px 0px 20px;
-}
+  }
+  .offer-details {
+    gap: 10px;
+  }
+  .category .category-image img {
+    width: 190px;
+  }
+  .category .category-type h5 {
+    margin: 17px 0px 17px 8px;
+  }
+  .shop-menu li a {
+    font-size: 13px;
+  }
+  .shop-menu li {
+    padding: 8px;
+  }
+  .list-header {
+    height: 41px;
+  }
+  .list-header h4 {
+    display: inline-block;
+    margin: 8px 0px 0px 20px;
+  }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .category .category-image img {
     width: 164px;
     height: 200px;
-}
-.category .product-count {
-  font-size: 12px;
-  padding: 7px 16px 5px 0px;
-}
-.category .category-type h5 {
-  font-size: 14px;
-}
-.category-type{
-  display: flex;
+  }
+  .category .product-count {
+    font-size: 12px;
+    padding: 7px 16px 5px 0px;
+  }
+  .category .category-type h5 {
+    font-size: 14px;
+  }
+  .category-type {
+    display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .logo h1 {
+    font-size: 27px;
+  }
+  .search-product input {
+    height: 10px;
+    font-size: 12px;
+  }
+  .search-product button {
+    height: 31.5px;
+    font-size: 15px;
+  }
+  .common-btn {
+    height: 31.5px;
+  }
+  .search-product {
+    display: flex;
+  }
+  .list-header h4 {
+    font-size: 14px;
+  }
+  .banner-area ul li a {
+    font-size: 14px;
+  }
+  .feature-box ul li a {
+    font-size: 14px;
+  }
+  .topic-headers h2 {
+    font-size: 27px;
+  }
+  .cart img {
+    width: 89%;
+  }
+  .cart h5 {
+    font-size: 12px;
+  }
+  .cart .price span:first-of-type,
+  .cart .price span:nth-child(2) {
+    font-size: 11px;
+  }
+  .cart .price {
+    margin-bottom: 0px;
+  }
+  .banner {
+    height: 177px;
+  }
+  .banner-text h4 {
+    font-size: 16px;
+  }
+  .banner-text h3 {
+    font-size: 26px;
+  }
+  .banner-text a.shop-now {
+    height: 16px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .banner-area ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 2.6px 40px;
+  }
+  .newsletter {
+    height: 194px;
+  }
+  .content h3 {
+    font-size: 19px;
+    margin: 7px;
+  }
+  .content span {
+    font-size: 11px;
+  }
+  .content .email-box {
+    height: 26px;
+  }
+  .content .email-box input,
+  .content .email-box button {
+    font-size: 11px;
+  }
 }
-.logo h1 {
-  font-size: 27px;
+
+@media only screen and (max-width: 709px) {
+  .dropdown-head {
+    display: flex;
+    width: 25%;
+  }
+  .category-box {
+    gap: 11px;
 }
-.search-product input {
-  height: 10px;
-  font-size: 12px;
+.subscribe button,.subscribe input  {
+  font-size: 10px;
 }
-.search-product button {
-  height: 31.5px;
-  font-size: 15px;
+  .dropdown-head a {
+    width: 68%;
+  }
+  .quick-links ul li:nth-child(4) {
+    display: flex;
+  }
+
+  .company-details .address span:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+  }
+  .payment-img {
+    height: 17px;
+    width: 181px;
+  }
+  .offer-details h5 {
+    font-size: 10px !important;
+  }
+  .offer-details .shop-now button {
+    height: 28px;
+    font-size: 11px;
+    width: 79px;
+  }
+  .offer-details .offer-collection h3 {
+    font-size: 17px;
+  }
+  .offer-category {
+    height: 194px;
+  }
 }
-.common-btn {
-  height: 31.5px;
+@media only screen and (max-width: 655px) {
+  .category .category-image img {
+    width: 151px;
+    height: 180px;
+  }
+  .category .category-type h5 {
+    font-size: 11px;
+    margin: 4px;
+  }
+  
 }
-.search-product{
-  display: flex;
+@media only screen and (max-width: 644px) {
+  .logo h1 {
+    font-size: 24px;
+  }
+  .common-btn {
+    height: 28.5px;
+    font-size: 12px;
 }
-.list-header h4 {
-  font-size: 14px;
+  .shop-menu li a,
+  .list-header h4 {
+    font-size: 12px;
+  }
+  .banner-text h3 {
+    font-size: 22px;
+  }
+  .banner-text h4 {
+    font-size: 13px;
+  }
+  .banner-text a.shop-now {
+    height: 13px;
+    font-size: 10px;
+  }
+  .banner {
+    height: 165px;
+  }
+  .topic-headers h2 {
+    font-size: 24px;
+  }
+  .cart {
+    margin-top: 12px;
+  }
+  .feature-box ul li:nth-of-type(4) {
+    font-size: 12px;
+  }
+  .feature-box ul {
+    margin-top: 12px;
+  }
+  .footer {
+    padding: 24px;
+  }
+  .address h3 {
+    margin: 0px;
+  }
+  .footer hr,
+  .address h3 {
+    margin: 0px;
+  }
+  .category .category-type h5 {
+    font-size: 11px;
+    margin: 4px;
+  }
+  .feature-box ul li a {
+    font-size: 12px;
+  }
+  .feature-box ul {
+    margin-top: 24px;
+  }
+  .category-box {
+    gap: 8px;
 }
-.banner-area ul li a {
-  font-size: 14px;
+
+  .cart h5 {
+    font-size: 11px;
+  }
+  .cart img {
+    width: 80%;
+  }
+  .cart h5 {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  .cart .price span:first-of-type,
+  .cart .price span:nth-child(2) {
+    font-size: 9px;
+  }
+  .cart button {
+    font-size: 9px;
+    height: 15px;
+  }
+  .banner-area ul li a {
+    font-size: 12px;
+  }
+  .quick-links ul li:nth-child(4) {
+    display: inline;
+    font-size: 10px;
+  }
+
+  .search-product input {
+    height: 6px;
+    font-size: 10px;
+  }
+  .search-product button {
+    height: 27.5px;
+    font-size: 13px;
+    width: 28px;
+  }
 }
-.feature-box ul li a {
-  font-size: 14px;
+
+@media only screen and (max-width: 606px) {
+  .address span:not(:first-child),
+  .quick-links ul,
+  .quick-links ul li:nth-child(4) {
+    font-size: 9px;
+  }
+  .address h3 {
+    font-size: 21px;
+  }
+  .quick-links h3,
+  .subscribe h3 {
+    font-size: 13px;
+  }
+  .shop-menu li {
+    min-width: 31px;
 }
-.topic-headers h2 {
-  font-size: 27px;
-}
-.cart img {
-  width: 89%;
-}
-.cart h5 {
-  font-size: 12px;
-}
-.cart .price span:first-of-type, .cart .price span:nth-child(2) {
-  font-size: 11px;
-}
-.cart .price {
-  margin-bottom: 0px;
-}
-.banner {
-  height: 177px;
-}
-.banner-text h4 {
-  font-size: 16px;
-}
-.banner-text h3 {
-  font-size: 26px;
-}
-.banner-text a.shop-now {
-  height: 16px;
-  text-align: center;
-  font-size: 12px;
-}
-.banner-area ul li {
-  border-bottom: 1px solid #ddd;
-  padding: 2.6px 40px;
-}
-.newsletter {
-  height: 194px;
- 
-}
-.content h3 {
-  font-size: 19px;
-  margin: 7px;
-}
-.content span {
-  font-size: 11px;
-}
-.content .email-box {
-  height: 26px;
-}
-.content .email-box input ,
-.content .email-box button{
- 
-  font-size: 11px;
-}
+  .footer {
+    height: 188px;
+  }
+
 }
