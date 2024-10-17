@@ -60,8 +60,9 @@ body{
 }
 
 
- /* @media only screen and (max-width: 932px){
-    .mt-4{
-        margin-top: 30px;
+ @media only screen and (max-width: 426px){
+    .width-75 {
+        width: 100%;
     }
-  }  */
+  
+  } 
