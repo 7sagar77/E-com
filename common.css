@@ -64,5 +64,8 @@ body{
     .width-75 {
         width: 100%;
     }
+    .width-33{
+        width: 60%;
+    }
   
   } 
