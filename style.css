@@ -1020,9 +1020,10 @@
     border-top: none;
   }
   .banner-area.banner-area-screen {
-    width: 100%;
+    width: 61%;
     top: 20px;
     position: relative;
+    height: 247px;
   }
   .shop-menu {
     align-items: flex-start;
@@ -1053,18 +1054,61 @@
   }
   .category-wrapper {
     flex-direction: column;
-    width: 100%;
+    width: 85%;
   }
   .offer-category {
-    width: 90%;
+    width: 100%;
   }
   .offer-details h5 {
     font-size: 12px !important;
+  }
+  .offer-details .offer-collection h3 {
+    font-size: 18px;
+  }
+  .footer {
+    width: 90%;
+    height: 368px;
+  }
+  .content {
+    width: 78%;
+  }
+  .topic-headers {
+    width: 90%;
+  }
+  .feature-box ul {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+  }
+  .feature-box ul li {
+    border: 1px solid #ddd;
+    width: 61%;
+    text-align: center;
+    height: 36px;
+  }
+
+  .category-header {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+  .full-banner-wrapper:nth-child(6) div:nth-of-type(2) {
+    display: none;
+  }
+  .cart img {
+    width: 46%;
 }
-.offer-details .offer-collection h3 {
-  font-size: 18px;
+.address span:not(:first-child), .quick-links ul, .quick-links ul li:nth-child(4) {
+line-height: 12px;
+
 }
-.footer{
-  width: 90%;
-}
+
 }

@@ -67,5 +67,7 @@ body{
     .width-33{
         width: 60%;
     }
-  
+    .flex-row {
+        flex-direction: column;
+      }
   } 
